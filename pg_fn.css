@@ -1,0 +1,132 @@
+body {
+   
+    font-family: Arial, sans-serif;
+   
+  
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #261c5f;
+    padding: 1rem;
+  }
+ 
+
+  h1 {
+    color: white;
+    font-size: 3rem;
+    margin: 0;
+    padding-left: 3%;
+  }
+ img{
+    width: 7vh;
+   padding-right: 3%;
+   
+   
+ }
+
+  
+
+  nav {
+    display: flex;
+    gap: 1rem;
+     color: white;
+  }
+
+  nav a {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s;
+  }
+
+  nav a:hover {
+    background-color: #3D3D6F;
+  }
+
+  main {
+    padding: 2rem;
+    color: white;
+  }
+
+  section {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+  }
+
+  article {
+    
+    
+    background-color: #1E1E3F;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(255, 255, 255, 0.1);
+  }
+
+  article h2 {
+    font-size: 1.5rem;
+    margin-top: 0;
+  }
+
+  article p {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+  }
+
+
+  article a {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    background-color: #3D3D6F;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s;
+  }
+
+  article a:hover {
+    background-color: #5A5A9E;
+  }
+  .search-container {
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .search-container input[type=text] {
+    
+   
+    
+    padding: 10px;
+    align-items: center;
+    border: none;
+    border-bottom: 2px solid #000000;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  .search-container button[type=submit] {
+   
+    background-color: #4CAF50;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  .search-container button[type=submit]:hover {
+    background-color: #45a049;
+  }
